@@ -1,0 +1,31 @@
+{
+  "name": "pxc-products-api-graphql",
+  "version": "1.0.0",
+  "description": "phoenixcontact.com GraphQL API",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konopkov/pxc-products-api-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konopkov/pxc-products-api-graphql/issues"
+  },
+  "homepage": "https://github.com/konopkov/pxc-products-api-graphql#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-htmlacademy": "^0.5.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "make-fetch-happen": "^4.0.1",
+    "node-html-parser": "^1.1.12"
+  }
+}
