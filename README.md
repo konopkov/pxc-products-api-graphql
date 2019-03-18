@@ -13,4 +13,4 @@ GraphQL server started at [http://localhost:4000/graphql](http://localhost:4000/
 
 ## Queries
 
-![Query Example](https://raw.githubusercontent.com/konopkov/pxc-products-api-graphql/images/master/query-example-name.png)
+![Query Example](https://raw.githubusercontent.com/konopkov/pxc-products-api-graphql/master/images/query-example-name.png)
