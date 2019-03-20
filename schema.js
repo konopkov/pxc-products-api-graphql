@@ -21,6 +21,13 @@ const ProductType = new GraphQLObjectType({
       type: GraphQLString,
       resolve: (html) =>
         html.childNodes[0].childNodes[1].childNodes[11].childNodes[0].rawText
+    },
+    description: {
+      type: GraphQLString,
+      resolve: (html) =>
+        html.childNodes[0].childNodes[1].childNodes[19].rawAttrs
+          .replace(`name="description" content="`, ``)
+          .replace(`"`, ``)
     }
   })
 });
